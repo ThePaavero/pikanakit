@@ -1,0 +1,79 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}table,td,th{vertical-align:top}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}
+
+body {
+	background: #474747;
+}
+
+#game {
+	font-family: 'Share';
+	width: 960px;
+	margin: 20px auto;
+	background: #242424;
+	color: #d1d1d1;
+	padding: 80px;
+	min-height: 200px;
+}
+
+#pikanakit_splash {
+	font-size: 40px;
+}
+
+#game.fucked_up {
+	background: #db0058;
+}
+.arena_when_completed_sentence {
+	background-color: #75ff91 !important;
+}
+
+#pikanakit_sentence_pool {
+	padding: 30px;
+}
+
+.obsc {
+	display: inline-block;
+	text-indent: -9000px;
+}
+div.sentence, .sentence_ghost {
+	font-size: 40px;
+	text-align: center;
+}
+	div.sentence.blow_up {}
+		.sentence_ghost.success {
+			color: #75ff91;
+		}
+
+#pikanakit_prompt {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	border: 0;
+	background: #171717;
+	color: #fff;
+	text-indent: 20px;
+	font-family: 'Share';
+}
+	#pikanakit_prompt:focus {
+		outline: 0;
+	}
+
+.good_character {
+	background: #75ff91;
+	color: #242424 !important;
+	-webkit-box-shadow: 0px 0px 10px 1px #75ff91;
+	/*border-radius: 10px;*/
+}
+.timer_painted_span {
+	color: #db0058 !important;
+}
+#fail_counter_wrapper, #points_counter_wrapper {
+	margin: 20px 0;
+}
+.sentence_when_completed_word {
+	text-shadow: 0px 0px 10px #fff;
+	color: #fff;
+}
+
+.flash_message {}
+
+/* EOF */
