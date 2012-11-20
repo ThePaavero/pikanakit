@@ -24,7 +24,8 @@
 			'js/game/effects/completedword.js',
 
 			'js/game/sentences/set1.js',
-			'js/game/sentences/set2.js'
+			'js/game/sentences/set2.js',
+			'js/game/sentences/set3.js'
 
 		];
 
