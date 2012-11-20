@@ -5,6 +5,9 @@
  */
 Pikanakit.Effects.CompletedWord = function(element) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	if(element === undefined)
 	{
 		return false;

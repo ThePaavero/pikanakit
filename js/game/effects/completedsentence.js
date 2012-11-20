@@ -5,6 +5,9 @@
  */
 Pikanakit.Effects.CompletedSentence = function(element) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	$(element).addClass('arena_when_completed_sentence');
 	setTimeout(function()
 	{

@@ -5,6 +5,9 @@
  */
 Pikanakit.Effects.FlashMessage = function(msg, color_hex, append_to) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	append_to = append_to || $('body');
 	color_hex = color_hex || '#75ff91';
 

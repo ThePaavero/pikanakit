@@ -5,6 +5,9 @@
  */
 Pikanakit.Effects.Sparkles = function(element, mood) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	mood = mood || 'positive';
 
 	if(element === undefined)

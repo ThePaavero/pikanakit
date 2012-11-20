@@ -6,6 +6,9 @@
 
 Pikanakit.Timers.SentenceTimer = function(element) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	var self = this;
 
 	self.started = null;

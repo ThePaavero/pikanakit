@@ -5,6 +5,9 @@
  */
 Pikanakit.Effects.FaultyStroke = function(element) {
 
+	/*global Pikanakit, $*/
+	'use strict';
+
 	if(element === undefined)
 	{
 		return false;

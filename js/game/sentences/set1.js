@@ -5,6 +5,7 @@
  *
  * @package Pikanakit
  */
+
 Pikanakit.Sentences.DefaultSet = {
 	meta : {
 		name       : 'Default sentence set',

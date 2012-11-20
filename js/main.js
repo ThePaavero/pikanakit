@@ -5,6 +5,9 @@
  */
  (function() {
 
+	/*global Pikanakit, LazyLoad, $*/
+	'use strict';
+
 	var files = [
 
 			'js/game/namespaces.js',
