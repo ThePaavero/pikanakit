@@ -11,9 +11,6 @@ Pikanakit.Timers.SentenceTimer = function(element) {
 
 	var self = this;
 
-	self.started = null;
-	self.ended   = null;
-
 	/**
 	 * Start the clock
 	 * @return void
