@@ -15,7 +15,7 @@
 			'js/game/effects/sparkles.js',
 			'js/game/effects/faultystroke.js',
 			'js/game/effects/completedsentence.js',
-			'js/game/effects/completedWord.js',
+			'js/game/effects/completedword.js',
 
 			'js/game/sentences/set1.js',
 			'js/game/sentences/set2.js'
