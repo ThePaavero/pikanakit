@@ -8,3 +8,4 @@ See demo here: http://munfillari.com/temp/pikanakit/app/
 (not necessarily up to date with the versioned one)
 
 With Finnish proverbs: http://munfillari.com/temp/pikanakit/app/#/set/FinnishProverbs
+With Swedish proverbs: http://munfillari.com/temp/pikanakit/app/#/set/SwedishProverbs
