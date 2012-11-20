@@ -24,10 +24,10 @@ Pikanakit.Effects.CompletedWord = function(element) {
 		var sparkle = document.createElement('span');
 			sparkle.className = 'pikanakit_effect_positive_sparkle_particle';
 
-		var my_size  = randomFromInterval(particle_minimum_size, particle_maximum_size);
+		var my_size  = Pikanakit.Helpers.randomFromInterval(particle_minimum_size, particle_maximum_size);
 		var my_color = '#00e5ff';
-		var my_top   = (($(element).offset().top + $(element).outerHeight()) - my_size) + randomFromInterval(-5, 5);
-		var my_left  = $(element).offset().left + randomFromInterval(-35, 1);
+		var my_top   = (($(element).offset().top + $(element).outerHeight()) - my_size) + Pikanakit.Helpers.randomFromInterval(-5, 5);
+		var my_left  = $(element).offset().left + Pikanakit.Helpers.randomFromInterval(-35, 1);
 
 		$(sparkle).css({
 			'position'         : 'absolute',

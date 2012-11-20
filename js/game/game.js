@@ -178,6 +178,10 @@ Pikanakit.App = function() {
 		return self.sentences[self.sentence_pointer];
 	};
 
+	/**
+	 * Get the current sentence HTML element
+	 * @return {object} HTML element
+	 */
 	var getCurrentSentenceElement = function()
 	{
 		return $('.sentence')[0]; // This is fucked up
@@ -300,7 +304,7 @@ Pikanakit.App = function() {
 	 */
 	var obscureSentenceMarkup = function(element)
 	{
-		var character = randomFromInterval(50, 350);
+		var character = Pikanakit.Helpers.randomFromInterval(50, 350);
 
 		var old_markup = $(element).html();
 		var new_markup = old_markup.replace(/<\/span><span>/g, '</span><div class="obsc">' + character + '</div><span>');

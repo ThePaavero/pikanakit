@@ -6,8 +6,11 @@
  (function() {
 
 	var files = [
+
 			'js/game/namespaces.js',
 			'js/game/game.js',
+
+			'js/game/helpers/randomfrominterval.js',
 
 			'js/game/timers/sentencetimer.js',
 
@@ -19,6 +22,7 @@
 
 			'js/game/sentences/set1.js',
 			'js/game/sentences/set2.js'
+
 		];
 
 	LazyLoad.js(files, function()
@@ -28,13 +32,5 @@
 	});
 
 })();
-
-/**
- * Helper functions below
- */
-function randomFromInterval(from, to)
-{
-    return Math.floor(Math.random()*(to-from+1)+from);
-}
 
 // EOF
