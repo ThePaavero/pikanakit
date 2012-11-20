@@ -6,9 +6,9 @@
  * @package Pikanakit
  */
 
-Pikanakit.Sentences.DefaultSet = {
+Pikanakit.Sentences.FinnishProverbs = {
 	meta : {
-		name       : 'Default sentence set',
+		name       : 'Finnish proverbs sentence set',
 		language   : 'fi',
 		difficulty : 100
 	},

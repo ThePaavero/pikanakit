@@ -11,8 +11,7 @@
 var Pikanakit = {};
 
 /**
- * Sentence component
- * @type {Object}
+ * Components
  */
 Pikanakit.Helpers   = {};
 Pikanakit.Sentences = {};

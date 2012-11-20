@@ -19,7 +19,7 @@ Pikanakit.App = function() {
 	 */
 	this.init = function(element, sentence_set)
 	{
-		sentence_set = sentence_set || 'DefaultSet';
+		sentence_set = sentence_set || 'FinnishProverbs';
 
 		// *ding ding ding* (tä)
 		running = true;
